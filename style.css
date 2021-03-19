@@ -89,3 +89,16 @@ form {
     justify-content: center;
     margin-top: 50px;
 }
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   right:5;
+   bottom: 0;
+   width: 100%;
+   background-color: #ccc;
+   color: black;
+   text-align: right;
+   margin-right:10px;
+}
