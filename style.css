@@ -14,8 +14,8 @@ header {
     display: flex;
     top: 0;
     align-items: center;
-    background-color: lightgrey;
-    padding: 0px 0px;
+    background-color: rgb(241, 241, 241);
+    position: fixed;
     margin: auto;
 }
 
@@ -36,6 +36,7 @@ a {
 .logo {
     flex: 1;
     width: 70vh;
+    align-items: center;
 }
 
 .logo img {
@@ -47,7 +48,7 @@ nav {
 }
 
 #intro {
-    margin-top: 40px;
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,10 +61,18 @@ nav {
 form {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 #intro input[type='submit'] {
+    width: 100px;
+    height: 30px;
+    background: rgb(255, 196, 0);
+    border: none;
     margin: 15px 0;
+    cursor: pointer;
+    color: black;
+    font-weight: 1000;
 }
 
 .content {
@@ -87,5 +96,53 @@ form {
 .how-it-works {
     display: flex;
     justify-content: center;
+    margin-top: 70px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.column {
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid black;
+    width: 300px;
+    border-radius: 2%;
+}
+
+.btn {
+    margin: 15px 18px;
+    background: orange;
+    font-size: 14px;
+    color: white;
+    border: none;
+    width: 90px;
+    height: 30px;
+}
+
+.tit {
+    background: rgb(236, 236, 236);
+    align-items: center;
+    padding: 8px;
+}
+
+.column p {
+    padding: 16px;
+}
+
+.column h4 {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 24px;
+}
+
+.features {
     margin-top: 50px;
 }
