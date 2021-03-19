@@ -83,3 +83,9 @@ form {
     padding: 10px;
     margin-left: 50px;
 }
+
+.how-it-works {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
